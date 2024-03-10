@@ -1,0 +1,23 @@
+/* Main Background Colour and Image */
+.bg__12180 {
+    background: url("https://raw.githubusercontent.com/coolesding/shiggycord/v3/img/snow.gif") !important; /* You can use any GIF/PNG/JPEG Link */
+    background-repeat: repeat; /* Adjust if needed (depending on media used) */
+  }
+  
+  /* Additional Transparency */
+  .custom-theme-background .withBackgroundOverride_b6a351 /* Overrides Nitro Themes (for Title Bar) */ {
+    background: transparent !important;
+  }
+  
+  /* Additional Recolouring */
+  .wordmarkWindows__05c46, /* "Discord" Text */
+  .winButtonClose__73489, /* Close Discord Button" Text */
+  .winButtonMinMax__72f36, /* Maximize Discord Button */
+  .winButtonMinMax__72f36:last-child /* "Minimize Discord Button */ {
+      color: #ffffff;
+  }
+  
+  /* Cleanup */
+  body, .appMount_fae9dd /* Overrides Gradient (for Title Bar */ {
+    background: var(--background-tertiary) !important;
+  }
