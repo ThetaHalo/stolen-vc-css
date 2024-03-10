@@ -161,5 +161,9 @@
 .vc-spotify-button.vc-spotify-shuffle-on:hover {
   background-color: color-mix(in srgb, var(--green-360), transparent 75%);;
 } 
+#vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
+    background-color: rgb(255, 255, 255) !important;
+    border-color: rgb(0, 0, 0) !important;
+}
 /* */
 /* adding this to force update */
