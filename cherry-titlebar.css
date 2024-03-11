@@ -1,23 +1,27 @@
-/* Main Background Colour and Image */
-.bg__12180 {
-    background: url("https://github.com/ThetaHalo/stolen-vc-css/blob/main/images/cherry/flowers-petals.gif?raw=true") !important; /* You can use any GIF/PNG/JPEG Link */
-    background-repeat: repeat; /* Adjust if needed (depending on media used) */
-  }
-  
-  /* Additional Transparency */
-  .custom-theme-background .withBackgroundOverride_b6a351 /* Overrides Nitro Themes (for Title Bar) */ {
-    background: transparent !important;
-  }
-  
-  /* Additional Recolouring */
-  .wordmarkWindows__05c46, /* "Discord" Text */
-  .winButtonClose__73489, /* Close Discord Button" Text */
-  .winButtonMinMax__72f36, /* Maximize Discord Button */
-  .winButtonMinMax__72f36:last-child /* "Minimize Discord Button */ {
-      color: #ffffff;
-  }
-  
-  /* Cleanup */
-  body, .appMount_fae9dd /* Overrides Gradient (for Title Bar */ {
-    background: var(--background-tertiary) !important;
-  }
+/*https://discord.com/channels/1015060230222131221/1028106818368589824/1169658881052512367*/
+[class^=bg_] {
+  background: url("https://github.com/ThetaHalo/stolen-vc-css/blob/main/images/cherry/flowers-petals.gif?raw=true") !important; /* You can use any GIF/PNG/JPEG Link */
+  background-repeat: repeat; /* Adjust if needed (depending on media used) */
+}
+/* Additional Transparency */
+[class^=childWrapper_], /* Discord Home Icon */
+[class*=guilds_], /* Guild List Bar */
+[class^=circleIconButton_],  /* Add Server and Server Discovery */
+[class^=scroller_],  /* Overrides Nitro Themes (for Guild List) */ 
+[class^=typeWindows_], /* Overrides Nitro Themes (for Title Bar) */
+[class^=folder_], [class^=folderIconWrapper_], [class^=expandedFolderBackground_] /*Folders*/ 
+{
+  background: none !important;
+}
+
+/* Additional Recolouring */
+[class^=wordmarkWindows_], /* "Discord" Text */
+[class^=winButton], /* Close Discord Button" Text */
+[class^=circleIcon_] /* Add Server and Server Discovery SVG'S */ {
+    color: #ffffff;
+}
+
+/* Cleanup */
+body, #app-mount/* Overrides Gradient (for Title Bar */ {
+  background: var(--background-tertiary) !important;
+}
