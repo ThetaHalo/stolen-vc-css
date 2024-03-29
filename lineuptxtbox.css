@@ -1,13 +1,13 @@
 /* Match channel text area to user container - https://discord.com/channels/1015060230222131221/1028106818368589824/1166651812200317018 */
-.form__13a2c {
+.form_d8a4a1 {
   padding: 0;
 }
 
-.channelTextArea__2e60f {
+.channelTextArea_c2094b {
   margin: 0;
 }
 
-.scrollableContainer__33e06 {
+.scrollableContainer_ff917f {
   border-radius: 0;
 }
 
@@ -27,7 +27,7 @@
 }
 
 /* Remove single pixel padding from user container */
-.container_ca50b9 {
+.container_debb33 {
   margin: 0;
 }
 /* End Match channel text area to user container */
