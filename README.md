@@ -14,4 +14,5 @@ message links / original repo links to each original thing are in their specific
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/hover-animation.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/lineuptxtbox.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/roundeduserpanel.css);
+@import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/compressgithubwebhook.css);
 ```
