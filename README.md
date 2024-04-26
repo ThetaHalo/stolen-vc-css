@@ -15,6 +15,6 @@ shame on me though :p
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/lineuptxtbox.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/roundeduserpanel.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/compressgithubwebhook.css);
-@import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/boticons.css):
-@import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/betterconnectedaccounts.css):
+@import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/boticons.css);
+@import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/betterconnectedaccounts.css);
 ```
