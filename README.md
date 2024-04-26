@@ -3,9 +3,9 @@
 my quickcss for vencord was so confusing and weird so i have this repo to fix that.
 message links / original repo links to each original thing are in their specific files, ty to all of them!
 
-##  shame on me though
+shame on me though :p 
 
-- Imports
+## Imports
 ```css
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/albumoncontrols.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/betterspotify.css);
@@ -15,4 +15,6 @@ message links / original repo links to each original thing are in their specific
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/lineuptxtbox.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/roundeduserpanel.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/compressgithubwebhook.css);
+@import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/boticons.css):
+@import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/betterconnectedaccounts.css):
 ```
