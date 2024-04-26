@@ -1,0 +1,53 @@
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1232384997470638081*/
+@import url(https://cdn.discordapp.com/attachments/1008439556619636777/1232284525363724329/NewIcons.css?ex=6628e5e5&is=66279465&hm=c3ad6679a86ad4babc59f4df753de1727d4f847cc5f53a049a639848b291452c&); /* if you dont want use new icons remove this line  */
+:root {
+  --tiktok: #ff0050;
+  --instagram: #f09433;
+  --theme-name: "BetterConnectedAccounts";
+  --theme-version: "(0.4.1)";
+  --radius: 4px; /* if you dont want rounded corners change 4px to 0 */
+}
+[class^=connectedAccountContainer] {  
+  border: none;
+  background: var(--color);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5) inset;
+  border-radius: var(--radius);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  &:has([aria-label="Spotify"]) { --color: var(--spotify) }
+  &:has([aria-label="Twitch"]) { --color: var(--twitch) }
+  &:has([aria-label="YouTube"]) { --color: var(--youtube) }
+  &:has([aria-label="Reddit"]) { --color: var(--reddit) }
+  &:has([aria-label="PayPal"]) { --color: var(--paypall) }
+  &:has([aria-label="TikTok"]) { --color: var(--tiktok) }
+  &:has([aria-label="Steam"]) { --color: var(--steam) }
+  &:has([aria-label="Crunchyroll"]) { --color: var(--cruchyroll) }
+  &:has([aria-label="eBay"]) { --color: var(--ebay) }
+  &:has([aria-label="Xbox"]) { --color: var(--xbox) }
+  &:has([aria-label="Battle.net"]) { --color: var(--battlenet) }
+  &:has([aria-label="PlayStation Network"]) { --color: var(--playstation) }
+  &:has([aria-label="Epic Games"]) { --color: var(--epic-games) }
+  &:has([aria-label="GitHub"]) { --color: var(--github) }
+  &:has([aria-label="X"]) { --color: var(--twitter) }
+  &:has([aria-label="League of Legends"]) { --color: var(--lol) }
+  &:has([aria-label="Twitter"]) { --color: var(--twitter) }
+  &:has([aria-label="Instagram"]) { --color: var(--instagram) }
+  &:has([aria-label="Riot Games"]) { --color: var(--riot-games) }
+  &:has([aria-label="Skype"]) { --color: var(--skype) }
+  &:has([aria-label="Facebook"]) { --color: var(--facebook) }
+
+  /* turn the verified check black */
+  [class^=flowerStar_] path {
+    fill: rgb(0 0 0 / 1);
+  }
+}
+[class^=connectedAccountOpenIcon],
+[class^=connectedAccountNameText],
+[class^=connectedAccountIcon] {
+  filter: drop-shadow(3px 2px 1px rgb(25 41 35 / 0.5));
+  color: white !important;
+}
+[aria-label="User Settings"] [class^=info] > :first-child::before { /* adds theme info to the bottom of options screen, feel free to remove */
+  all: inherit;
+  content: var(--theme-name) " " var(--theme-version);
+}
