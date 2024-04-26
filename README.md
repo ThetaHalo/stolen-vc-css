@@ -6,7 +6,7 @@ message links / original repo links to each original thing are in their specific
 ##  shame on me though
 
 - Imports
-```
+```css
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/albumoncontrols.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/betterspotify.css);
 @import url(https://raw.githubusercontent.com/ThetaHalo/stolen-vc-css/main/cherry-titlebar.css);
