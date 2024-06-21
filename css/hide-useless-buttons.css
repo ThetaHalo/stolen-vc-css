@@ -1,0 +1,14 @@
+/* Hide stupid gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+  }
+  
+  /* Hide Sticker button */
+  button[aria-label="Open sticker picker"] {
+    display: none;
+  }
+  
+  /* Hide GIF button */
+  button[aria-label="Open GIF picker"] {
+    display: none;
+  }

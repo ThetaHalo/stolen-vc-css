@@ -47,7 +47,3 @@
   filter: drop-shadow(3px 2px 1px rgb(25 41 35 / 0.5));
   color: white !important;
 }
-[aria-label="User Settings"] [class^=info] > :first-child::before { /* adds theme info to the bottom of options screen, feel free to remove */
-  all: inherit;
-  content: var(--theme-name) " " var(--theme-version);
-}
