@@ -11,13 +11,13 @@ shame on me though :p
 ```css
 @import url(https://thetahalo.github.io/stolen-vc-css/css/albumoncontrols.css);
 @import url(https://thetahalo.github.io/stolen-vc-css/css/betterspotify.css);
-@import url(https://thetahalo.github.io/stolen-vc-css/css/cherry-titlebar.css);
+/*@import url(https://thetahalo.github.io/stolen-vc-css/css/cherry-titlebar.css);*/
 @import url(https://thetahalo.github.io/stolen-vc-css/css/dashless.css);
 @import url(https://thetahalo.github.io/stolen-vc-css/css/hover-animation.css);
 @import url(https://thetahalo.github.io/stolen-vc-css/css/lineuptxtbox.css);
 @import url(https://thetahalo.github.io/stolen-vc-css/css/roundeduserpanel.css);
 @import url(https://thetahalo.github.io/stolen-vc-css/css/compressgithubwebhook.css);
-@import url(https://thetahalo.github.io/stolen-vc-css/css/boticons.css);
+/*@import url(https://thetahalo.github.io/stolen-vc-css/css/boticons.css);*/
 @import url(https://thetahalo.github.io/stolen-vc-css/css/betterconnectedaccounts.css);
 ```
 
