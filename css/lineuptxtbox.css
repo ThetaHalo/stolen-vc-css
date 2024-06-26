@@ -1,23 +1,24 @@
 /* Match channel text area to user container - https://discord.com/channels/1015060230222131221/1028106818368589824/1166651812200317018 */
-.form_d8a4a1 {
+[class^="chatContent_"] form {
   padding: 0;
 }
 
-.channelTextArea_c2094b {
+[class^="channelTextArea_"] {
   margin: 0;
 }
 
-.scrollableContainer_ff917f {
+[class^="channelTextArea_"] [class^="scrollableContainer_"] {
   border-radius: 0;
 }
 
-.inner__9fd0b {
+[class^="channelTextArea_"] [class^="scrollableContainer_"] [class^="inner_"] {
   min-height: 48px;
   padding-top: 4px;
+  margin-right: 4px;
 }
 
 /* Move typing indicators */
-.typing__6fd1d {
+[class^=typing_] {
   top: -24px;
   left: 0px;
   width: fit-content;
@@ -27,7 +28,7 @@
 }
 
 /* Remove single pixel padding from user container */
-.container_debb33 {
-  margin: 0;
+[class^="panels_"] [class^="container_"] {
+  padding-bottom: 0;
 }
 /* End Match channel text area to user container */
