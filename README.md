@@ -24,12 +24,17 @@ shame on me though :p
 @import url(https://thetahalo.github.io/stolen-vc-css/css/betterconnectedaccounts.css);
 ```
 
-### Even QUICKER css!
+### Snippets for your QuickCSS!!
 ---
-__**Block Certain Built-In Emojis**__
+__**Block Certain Built-In Emojis (fully)**__
 
 ```css
 [data-name*="Replace With Emoji Name (Example: pleading_face)"] {
+    display: none;
+  }
+
+
+img[alt="Replace With Emoji (Example: 🥺)"] {
     display: none;
   }
 ```
