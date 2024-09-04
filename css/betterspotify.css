@@ -1,5 +1,5 @@
 /* BetterSpotifyPlayer */
-/* https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css */
+/* a spotify icon snippet */
 #vc-spotify-song-title::before,
 #vc-spotify-song-title + div::before,
 #vc-spotify-song-title + div + div::before {
@@ -40,9 +40,10 @@
   transition: height 0.4s ease-out;
   padding: 7px!important;
   padding-top: 8px !important;
+  overflow: hidden;
 }
 #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
-  height: 300px;
+  height: 310px;
 }
 #vc-spotify-player:hover {
   height: 115px;
@@ -59,8 +60,7 @@
 #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) .vc-spotify-button-row {
   opacity: 1;
 }
-#vc-spotify-player::before,
-#vc-spotify-player::after {
+#vc-spotify-player::before {
   z-index: -1;
   content: "";
   position: absolute;
@@ -78,26 +78,10 @@
   background-position: center;
   opacity: 0;
 }
-#vc-spotify-player::after {
-  backdrop-filter: brightness(100%);
-}
-#vc-spotify-player:hover::before {
-  background: var(--vc-spotify-track-image);
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-}
-#vc-spotify-player:hover::after {
-  backdrop-filter: brightness(50%);
-}
+#vc-spotify-player:hover::before,
 #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper)::before {
-  background: var(--vc-spotify-track-image) !important;
-  background-size: cover;
-  background-position: center;
   opacity: 1;
-}
-#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper)::after {
-  backdrop-filter: brightness(50%);
+  filter: brightness(50%);
 }
 #vc-spotify-progress-bar {
   margin: 11px 0 7px;
@@ -120,23 +104,23 @@
 #vc-spotify-player:hover #vc-spotify-titles  {
   margin-left: -42px;
 }
-#vc-spotify-player #vc-spotify-titles .size14_b2af01 {
+#vc-spotify-player #vc-spotify-titles .size14_fb468f {
   font-size: 13px;
 }
 #vc-spotify-song-title::before, #vc-spotify-song-title + div::before, #vc-spotify-song-title + div + div::before {
   background-color: var(--interactive-active);
 }
-#vc-spotify-player .colorStandard__5111e {
+#vc-spotify-player .colorStandard_fbc755 {
   color: var(--interactive-active);
 }
 .vc-spotify-artist, .vc-spotify-album {
   color: var(--interactive-normal)
 }
-#vc-spotify-player .bar_e58961 {
-  background-color: #552570;
+#vc-spotify-player .bar_c7a159 {
+  background-color: color-mix(in srgb, var(--white-500), transparent 75%);
 }
-#vc-spotify-player .barFill__30e17 {
-  background-color: #b64cf3;
+#vc-spotify-player .barFill_c7a159 {
+  background-color: var(--interactive-active);
 }
 #vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
   background-color: var(--interactive-active);
@@ -161,9 +145,5 @@
 .vc-spotify-button.vc-spotify-shuffle-on:hover {
   background-color: color-mix(in srgb, var(--green-360), transparent 75%);;
 } 
-#vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
-    background-color: rgb(255, 255, 255) !important;
-    border-color: rgb(0, 0, 0) !important;
-}
 /* */
 /* adding this to force update */
