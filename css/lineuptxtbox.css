@@ -13,22 +13,20 @@
 
 [class^="channelTextArea_"] [class^="scrollableContainer_"] [class^="inner_"] {
   min-height: 48px;
-  padding-top: 4px;
+  padding-top: 8px;
   margin-right: 4px;
+
 }
 
 /* Move typing indicators */
 [class^=typing_] {
-  top: -24px;
+  top: 0px;
   left: 0px;
   width: fit-content;
   padding-right: 9px;
-  border-radius: 0 8px 0 0;
+  bottom: 10px;
+  margin-bottom: -100px;
   background: var(--bg-overlay-3,var(--channeltextarea-background));
 }
 
-/* Remove single pixel padding from user container */
-[class^="panels_"] [class^="container_"] {
-  padding-bottom: 0;
-}
 /* End Match channel text area to user container */
