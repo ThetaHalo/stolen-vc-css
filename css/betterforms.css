@@ -1,0 +1,49 @@
+/* from: https://discord.com/channels/1015060230222131221/1028106818368589824/1362906396475265286*/
+
+form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
+    width: var(--modal-width-medium);
+
+    .header__49fc1 {
+        padding: var(--modal-vertical-padding) var(--modal-horizontal-padding);
+        margin-bottom: var(--modal-vertical-padding);
+        border-bottom: var(--border-normal) solid 1px;
+
+        .colorHeaderPrimary_c9946a {
+            text-align: center;
+            font-weight: var(--font-weight-semibold);
+            flex-grow: 1;
+        }
+
+        .closeButton_e858dd {
+            top: unset;
+            right: var(--modal-horizontal-padding);
+            margin-bottom: auto;
+            margin-top: auto;
+
+            .contents__201d5 {
+                height: 24px;
+            }
+        }
+    }
+
+    .submissionWarning_e858dd {
+        display: none;
+    }
+
+    .formItem__1b11b .eyebrow_b717a1 {
+        margin-bottom: 4px;
+
+        .errorMessage_b717a1 {
+            color: var(--text-danger);
+        }
+    }
+
+    .input__0f084.error__0f084:focus {
+        color: var(--text-normal);
+        transition-property: border-color, color;
+    }
+
+    .footer__49fc1 {
+        justify-content: space-between;
+    }
+}
